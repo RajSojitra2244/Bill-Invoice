@@ -1,0 +1,69 @@
+Button{
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.container{
+    max-width: 800px !important;
+}
+.header{
+    background-color: #039dfc;
+    text-align: left;
+    height:110px ;
+    padding:30px; 
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+@media print {
+    .header,.discount {
+        background-color: #039dfc !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+.discount{
+        background-color: #039dfc !important;
+        color:  white;
+
+}
+.h1, h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+.modal_tital{
+
+    text-align: center;
+}
+.qbutton{
+    margin-Left:19px
+}
+.Sbutton{
+    margin-Left:10px
+}
+.additem{
+    margin-Left:150px
+
+}
+th{
+    color:  #039dfc;
+}
+.abc{
+    color:  #039dfc;
+
+}
+hr{
+    color:  #039dfc;
+
+}
+.discount{
+    margin-left: 0px;
+    
+}
+.dpricecolour{
+    color:  #039dfc;
+    size: 100%;
+
+}
+body{
+    margin: inherit;
+}
